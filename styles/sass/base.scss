@@ -1,0 +1,44 @@
+body {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+
+    .col {
+      border-style: solid;
+      height: 100px;
+      width: 100px;
+      border-width: 1px;
+    }
+
+    .left {
+      width: 49.9vw;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+
+      .left-row {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+
+    .line {
+      background-color: black;
+      height: 95vh;
+      width: 0.2vw;
+      align-self: center;
+    }
+
+    .right {
+      width: 49.9vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .right-row {
+        display: flex;
+      }
+    }
+  }
+}
