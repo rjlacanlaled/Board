@@ -1,13 +1,13 @@
 body {
   .container {
     display: flex;
-    justify-content: space-between;
     height: 100vh;
 
     .col {
       outline: 1px solid;
-      height: 100px;
-      width: 100px;
+      height: 15vh;
+      width: 15vh;
+      flex-shrink: 0;
     }
 
     .left {

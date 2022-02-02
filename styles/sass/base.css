@@ -2,16 +2,15 @@ body .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   height: 100vh;
 }
 
 body .container .col {
   outline: 1px solid;
-  height: 100px;
-  width: 100px;
+  height: 15vh;
+  width: 15vh;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 body .container .left {
