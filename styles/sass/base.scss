@@ -5,10 +5,9 @@ body {
     height: 100vh;
 
     .col {
-      border-style: solid;
+      outline: 1px solid;
       height: 100px;
       width: 100px;
-      border-width: 1px;
     }
 
     .left {

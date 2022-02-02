@@ -9,10 +9,9 @@ body .container {
 }
 
 body .container .col {
-  border-style: solid;
+  outline: 1px solid;
   height: 100px;
   width: 100px;
-  border-width: 1px;
 }
 
 body .container .left {
